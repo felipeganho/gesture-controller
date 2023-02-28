@@ -12,7 +12,6 @@ const factory = {
       service: new CardsService({
         dbUrl: `${rootPath}/assets/database.json`,
         cardListWorker
-
       })
     })
   }
